@@ -1,0 +1,167 @@
+body{
+  background: grey;
+}
+
+.plusOneCanvas {
+  position: absolute;
+  width: 200px;
+  margin-left: 20%;
+  top: -50px;
+  font-size: 600%;
+  color: white;
+  align-items: center;
+}
+
+.plusOneCanvas >img{
+  position: absolute;
+  top: -350px;
+
+}
+
+
+.cookieCanvas {
+  position: relative;
+  background-image: url("http://pngimg.com/uploads/teeth/teeth_PNG7324.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-origin: padding-box;
+  width: 100%;
+  height: 80%;
+  cursor: pointer;
+  padding: 50%;
+}
+
+.TotalCanvas {
+  width: 100%;
+  padding: 20px;
+  border-color: white;
+  background: grey;
+}
+
+#text {
+  margin: 0 25% 0 25%;
+  border-radius: 20px;
+  border: none;
+  font-size: 60px;
+  width: 50%;
+  height: 100px;
+  color: white;
+  background: none;
+}
+
+.powerBubblesList {
+  height: 500%;
+}
+
+.wholeGameCanvas, .GameOver, .TryAgain{
+
+    position: absolute;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    width: 300px;
+    height: 200px;
+    display: block;
+    left: 50%;
+    top: 30%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.progress .progress-bar {
+  -webkit-transition: none !important;
+  transition: none !important;
+  border-radius: 0px;
+
+
+}
+
+
+.progress-bar{
+  background: red;
+}
+
+.progress {
+  background: #35fa80;
+}
+
+.GameOver{
+  color: white;
+  font-size: 400%;
+}
+
+.powerBubblesList{
+  height: 70px;
+  display: grid;
+  grid-template-columns:  50% 50%;
+}
+
+.powerBubblesList > button{
+  margin: 0 5% 0 5%;
+  border-radius: 20px;
+}
+
+.TryAgain {
+  top:60%;
+  height: 40%;
+  background: none;
+  border: none;
+  font-size: 50px;
+  color: white;
+}
+
+
+#topEnd {
+  font-size: 50px;
+  text-align: center;
+}
+
+.glyphicon-plus-sign{
+  color: #35fa80;
+}
+.Dr{
+  background: #35fa80;
+}
+
+.glyphicon-backward {
+  color: #71f7ff;
+}
+
+.Flossing {
+  background: #71f7ff;
+}
+
+
+.backToWeb {
+  float: right;
+  font-size: 60px;
+  color: #35fa80;
+}
+
+
+.POWERS {
+  /* border: 5px solid black;
+  border-radius: 20px; */
+}
+
+.PlayButton {
+  text-align: center;
+  left: 50%;
+  font-size: 50px;
+  color: white;
+  background: red;
+  width: 100%;
+  border: none;
+
+}
+
+.htpCanvas {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+.icons, .explainPower {
+  padding: 0;
+  color: white;
+}
